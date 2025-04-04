@@ -17,6 +17,9 @@ package-mode = false                              # Disable package mode
 [tool.poetry.dependencies]
 python = ">=3.11,<4.0"
 streamlit = "*"
+marker-pdf = ">=1.6.2,<2.0.0"
+asyncio = "*"
+
 
 [tool.poetry.group.dev.dependencies]
 streamlit = "^1.44.1"
