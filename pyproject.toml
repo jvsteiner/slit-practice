@@ -4,8 +4,8 @@ version = "0.1.0"
 description = ""
 authors = [{ name = "Jamie Steiner", email = "jvsteiner@gmail.com" }]
 readme = "README.md"
-requires-python = ">=3.11"
-dependencies = []
+requires-python = ">=3.11,<4.0"
+dependencies = ["marker-pdf (>=1.6.2,<2.0.0)"]
 
 [tool.poetry]
 name = "slit"
@@ -15,7 +15,7 @@ authors = ["Jamie Steiner <jvsteiner@gmail.com>"]
 package-mode = false                              # Disable package mode
 
 [tool.poetry.dependencies]
-python = ">=3.11"
+python = ">=3.11,<4.0"
 streamlit = "*"
 
 [tool.poetry.group.dev.dependencies]
