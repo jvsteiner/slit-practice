@@ -15,7 +15,7 @@ authors = ["Jamie Steiner <jvsteiner@gmail.com>"]
 package-mode = false                              # Disable package mode
 
 [tool.poetry.dependencies]
-python = "^3.13"
+python = ">=3.11"
 streamlit = "*"
 
 [tool.poetry.group.dev.dependencies]
