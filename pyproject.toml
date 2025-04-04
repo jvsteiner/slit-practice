@@ -1,0 +1,26 @@
+[project]
+name = "slit"
+version = "0.1.0"
+description = ""
+authors = [{ name = "Jamie Steiner", email = "jvsteiner@gmail.com" }]
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = []
+
+[tool.poetry]
+name = "slit"
+version = "0.1.0"
+description = ""
+authors = ["Jamie Steiner <jvsteiner@gmail.com>"]
+package-mode = false                              # Disable package mode
+
+[tool.poetry.dependencies]
+python = "^3.13"
+streamlit = "*"
+
+[tool.poetry.group.dev.dependencies]
+streamlit = "^1.44.1"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
